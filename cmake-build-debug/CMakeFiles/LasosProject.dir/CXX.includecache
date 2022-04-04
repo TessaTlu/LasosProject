@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.h
+map
+-
+functional
+-
+../lexer/LasosLexer.h
+/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.h
+
+/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.h
+string
+-
+vector
+-
+map
+-
+../token/LasosToken.h
+/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/token/LasosToken.h
+
+/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/token/LasosToken.h
+string
+-
+
+/Users/rasimgadziev/Desktop/study/cprj/LasosProject/main.cpp
+iostream
+-
+internal/lasos/lang/LasosLang.h
+/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.h
+
