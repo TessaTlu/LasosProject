@@ -22,6 +22,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Compiler/Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Compiler/GNU.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindBoost.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindPackageMessage.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Platform/Apple-Clang-C.cmake"
@@ -35,6 +38,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
+  "/opt/homebrew/lib/cmake/Boost-1.78.0/BoostConfig.cmake"
+  "/opt/homebrew/lib/cmake/Boost-1.78.0/BoostConfigVersion.cmake"
+  "/opt/homebrew/lib/cmake/BoostDetectToolset-1.78.0.cmake"
+  "/opt/homebrew/lib/cmake/boost_headers-1.78.0/boost_headers-config-version.cmake"
+  "/opt/homebrew/lib/cmake/boost_headers-1.78.0/boost_headers-config.cmake"
+  "/opt/homebrew/lib/cmake/boost_regex-1.78.0/boost_regex-config-version.cmake"
+  "/opt/homebrew/lib/cmake/boost_regex-1.78.0/boost_regex-config.cmake"
+  "/opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-mt-shared.cmake"
+  "/opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-mt-static.cmake"
+  "/opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-shared.cmake"
+  "/opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-static.cmake"
   )
 
 # The corresponding makefile is:

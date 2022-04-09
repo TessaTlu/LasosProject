@@ -81,12 +81,12 @@ clean: CMakeFiles/LasosProject.dir/clean
 CMakeFiles/LasosProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target LasosProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target LasosProject"
 .PHONY : CMakeFiles/LasosProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LasosProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LasosProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LasosProject.dir/rule

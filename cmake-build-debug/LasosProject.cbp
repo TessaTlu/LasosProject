@@ -5,7 +5,7 @@
 		<Option title="LasosProject"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.78.0\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.78.0\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug"/>
@@ -44,6 +44,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DBOOST_REGEX_NO_LIB"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/opt/homebrew/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -64,6 +67,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DBOOST_REGEX_NO_LIB"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/opt/homebrew/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -78,18 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.cpp">
-			<Option target="LasosProject"/>
-		</Unit>
-		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.h">
-			<Option target="LasosProject"/>
-		</Unit>
-		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.cpp">
-			<Option target="LasosProject"/>
-		</Unit>
-		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.h">
-			<Option target="LasosProject"/>
-		</Unit>
 		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/token/LasosToken.cpp">
 			<Option target="LasosProject"/>
 		</Unit>
@@ -99,14 +93,47 @@
 		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/main.cpp">
 			<Option target="LasosProject"/>
 		</Unit>
-		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/utils/Utils.cpp">
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/strings/Strings.cpp">
 			<Option target="LasosProject"/>
 		</Unit>
-		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/utils/Utils.h">
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/strings/Strings.h">
 			<Option target="LasosProject"/>
 		</Unit>
 		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/BoostDetectToolset-1.78.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/Boost-1.78.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/Boost-1.78.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_headers-1.78.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_headers-1.78.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/LasosProject/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

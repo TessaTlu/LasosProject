@@ -8,16 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.cpp" "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o"
-  "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.cpp" "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o"
   "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/token/LasosToken.cpp" "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o"
   "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/main.cpp" "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles/LasosProject.dir/main.cpp.o"
-  "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/utils/Utils.cpp" "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o"
+  "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/strings/Strings.cpp" "/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_REGEX_DYN_LINK"
+  "BOOST_REGEX_NO_LIB"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/opt/homebrew/include"
   )
 
 # The set of dependency files which are needed:

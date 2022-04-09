@@ -79,22 +79,9 @@ CMakeFiles/LasosProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LasosProject.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rasimgadziev/Desktop/study/cprj/LasosProject/main.cpp -o CMakeFiles/LasosProject.dir/main.cpp.s
 
-CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o: CMakeFiles/LasosProject.dir/flags.make
-CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o: ../internal/lasos/lang/LasosLang.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o -c /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.cpp
-
-CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.cpp > CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.i
-
-CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lang/LasosLang.cpp -o CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.s
-
 CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o: CMakeFiles/LasosProject.dir/flags.make
 CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o: ../internal/lasos/token/LasosToken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o -c /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/token/LasosToken.cpp
 
 CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.i: cmake_force
@@ -105,51 +92,35 @@ CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/token/LasosToken.cpp -o CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.s
 
-CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o: CMakeFiles/LasosProject.dir/flags.make
-CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o: ../internal/lasos/lexer/LasosLexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o -c /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.cpp
+CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o: CMakeFiles/LasosProject.dir/flags.make
+CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o: ../pkg/strings/Strings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o -c /Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/strings/Strings.cpp
 
-CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.cpp > CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.i
+CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/strings/Strings.cpp > CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.i
 
-CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rasimgadziev/Desktop/study/cprj/LasosProject/internal/lasos/lexer/LasosLexer.cpp -o CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.s
-
-CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o: CMakeFiles/LasosProject.dir/flags.make
-CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o: ../pkg/utils/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o -c /Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/utils/Utils.cpp
-
-CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/utils/Utils.cpp > CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.i
-
-CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/utils/Utils.cpp -o CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.s
+CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rasimgadziev/Desktop/study/cprj/LasosProject/pkg/strings/Strings.cpp -o CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.s
 
 # Object files for target LasosProject
 LasosProject_OBJECTS = \
 "CMakeFiles/LasosProject.dir/main.cpp.o" \
-"CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o" \
 "CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o" \
-"CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o" \
-"CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o"
+"CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o"
 
 # External object files for target LasosProject
 LasosProject_EXTERNAL_OBJECTS =
 
 LasosProject: CMakeFiles/LasosProject.dir/main.cpp.o
-LasosProject: CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o
 LasosProject: CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o
-LasosProject: CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o
-LasosProject: CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o
+LasosProject: CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o
 LasosProject: CMakeFiles/LasosProject.dir/build.make
+LasosProject: /opt/homebrew/lib/libboost_regex-mt.dylib
 LasosProject: CMakeFiles/LasosProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LasosProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rasimgadziev/Desktop/study/cprj/LasosProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LasosProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LasosProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

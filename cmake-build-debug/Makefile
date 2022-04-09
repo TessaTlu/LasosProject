@@ -129,54 +129,6 @@ LasosProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/build
 .PHONY : LasosProject/fast
 
-internal/lasos/lang/LasosLang.o: internal/lasos/lang/LasosLang.cpp.o
-.PHONY : internal/lasos/lang/LasosLang.o
-
-# target to build an object file
-internal/lasos/lang/LasosLang.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o
-.PHONY : internal/lasos/lang/LasosLang.cpp.o
-
-internal/lasos/lang/LasosLang.i: internal/lasos/lang/LasosLang.cpp.i
-.PHONY : internal/lasos/lang/LasosLang.i
-
-# target to preprocess a source file
-internal/lasos/lang/LasosLang.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.i
-.PHONY : internal/lasos/lang/LasosLang.cpp.i
-
-internal/lasos/lang/LasosLang.s: internal/lasos/lang/LasosLang.cpp.s
-.PHONY : internal/lasos/lang/LasosLang.s
-
-# target to generate assembly for a file
-internal/lasos/lang/LasosLang.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.s
-.PHONY : internal/lasos/lang/LasosLang.cpp.s
-
-internal/lasos/lexer/LasosLexer.o: internal/lasos/lexer/LasosLexer.cpp.o
-.PHONY : internal/lasos/lexer/LasosLexer.o
-
-# target to build an object file
-internal/lasos/lexer/LasosLexer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o
-.PHONY : internal/lasos/lexer/LasosLexer.cpp.o
-
-internal/lasos/lexer/LasosLexer.i: internal/lasos/lexer/LasosLexer.cpp.i
-.PHONY : internal/lasos/lexer/LasosLexer.i
-
-# target to preprocess a source file
-internal/lasos/lexer/LasosLexer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.i
-.PHONY : internal/lasos/lexer/LasosLexer.cpp.i
-
-internal/lasos/lexer/LasosLexer.s: internal/lasos/lexer/LasosLexer.cpp.s
-.PHONY : internal/lasos/lexer/LasosLexer.s
-
-# target to generate assembly for a file
-internal/lasos/lexer/LasosLexer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.s
-.PHONY : internal/lasos/lexer/LasosLexer.cpp.s
-
 internal/lasos/token/LasosToken.o: internal/lasos/token/LasosToken.cpp.o
 .PHONY : internal/lasos/token/LasosToken.o
 
@@ -225,29 +177,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-pkg/utils/Utils.o: pkg/utils/Utils.cpp.o
-.PHONY : pkg/utils/Utils.o
+pkg/strings/Strings.o: pkg/strings/Strings.cpp.o
+.PHONY : pkg/strings/Strings.o
 
 # target to build an object file
-pkg/utils/Utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o
-.PHONY : pkg/utils/Utils.cpp.o
+pkg/strings/Strings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o
+.PHONY : pkg/strings/Strings.cpp.o
 
-pkg/utils/Utils.i: pkg/utils/Utils.cpp.i
-.PHONY : pkg/utils/Utils.i
+pkg/strings/Strings.i: pkg/strings/Strings.cpp.i
+.PHONY : pkg/strings/Strings.i
 
 # target to preprocess a source file
-pkg/utils/Utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.i
-.PHONY : pkg/utils/Utils.cpp.i
+pkg/strings/Strings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.i
+.PHONY : pkg/strings/Strings.cpp.i
 
-pkg/utils/Utils.s: pkg/utils/Utils.cpp.s
-.PHONY : pkg/utils/Utils.s
+pkg/strings/Strings.s: pkg/strings/Strings.cpp.s
+.PHONY : pkg/strings/Strings.s
 
 # target to generate assembly for a file
-pkg/utils/Utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.s
-.PHONY : pkg/utils/Utils.cpp.s
+pkg/strings/Strings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LasosProject.dir/build.make CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.s
+.PHONY : pkg/strings/Strings.cpp.s
 
 # Help Target
 help:
@@ -258,21 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LasosProject"
-	@echo "... internal/lasos/lang/LasosLang.o"
-	@echo "... internal/lasos/lang/LasosLang.i"
-	@echo "... internal/lasos/lang/LasosLang.s"
-	@echo "... internal/lasos/lexer/LasosLexer.o"
-	@echo "... internal/lasos/lexer/LasosLexer.i"
-	@echo "... internal/lasos/lexer/LasosLexer.s"
 	@echo "... internal/lasos/token/LasosToken.o"
 	@echo "... internal/lasos/token/LasosToken.i"
 	@echo "... internal/lasos/token/LasosToken.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... pkg/utils/Utils.o"
-	@echo "... pkg/utils/Utils.i"
-	@echo "... pkg/utils/Utils.s"
+	@echo "... pkg/strings/Strings.o"
+	@echo "... pkg/strings/Strings.i"
+	@echo "... pkg/strings/Strings.s"
 .PHONY : help
 
 

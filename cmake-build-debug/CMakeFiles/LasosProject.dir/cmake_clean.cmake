@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LasosProject.dir/internal/lasos/lang/LasosLang.cpp.o"
-  "CMakeFiles/LasosProject.dir/internal/lasos/lexer/LasosLexer.cpp.o"
   "CMakeFiles/LasosProject.dir/internal/lasos/token/LasosToken.cpp.o"
   "CMakeFiles/LasosProject.dir/main.cpp.o"
-  "CMakeFiles/LasosProject.dir/pkg/utils/Utils.cpp.o"
+  "CMakeFiles/LasosProject.dir/pkg/strings/Strings.cpp.o"
   "LasosProject"
   "LasosProject.pdb"
 )
